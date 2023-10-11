@@ -1,0 +1,17 @@
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\TheLostKey.exe
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\TheLostKey.deps.json
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\TheLostKey.runtimeconfig.json
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\TheLostKey.dll
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\TheLostKey.pdb
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\bin\Debug\net6.0\Spectre.Console.dll
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.csproj.AssemblyReference.cache
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.AssemblyInfoInputs.cache
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.AssemblyInfo.cs
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.csproj.CoreCompileInputs.cache
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.csproj.CopyComplete
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.dll
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\refint\TheLostKey.dll
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.pdb
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\TheLostKey.genruntimeconfig.cache
+C:\Users\madss\Documents\UCL\Datamatiker\Programmering\GameJam\TheLostKey\TheLostKey\obj\Debug\net6.0\ref\TheLostKey.dll

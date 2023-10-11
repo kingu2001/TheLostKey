@@ -78,25 +78,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/Altin/.nuget/packages/": {}
+    "C:\\Users\\madss\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Altin/Desktop/GameJam-TheLostKey/TheLostKey/TheLostKey/TheLostKey.csproj",
+      "projectUniqueName": "C:\\Users\\madss\\Documents\\UCL\\Datamatiker\\Programmering\\GameJam\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
       "projectName": "TheLostKey",
-      "projectPath": "/Users/Altin/Desktop/GameJam-TheLostKey/TheLostKey/TheLostKey/TheLostKey.csproj",
-      "packagesPath": "/Users/Altin/.nuget/packages/",
-      "outputPath": "/Users/Altin/Desktop/GameJam-TheLostKey/TheLostKey/TheLostKey/obj/",
+      "projectPath": "C:\\Users\\madss\\Documents\\UCL\\Datamatiker\\Programmering\\GameJam\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
+      "packagesPath": "C:\\Users\\madss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\madss\\Documents\\UCL\\Datamatiker\\Programmering\\GameJam\\TheLostKey\\TheLostKey\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Altin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\madss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -136,7 +137,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
