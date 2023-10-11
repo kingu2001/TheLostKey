@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7//PiINW95zDlypxESkjmhPxeD03TWjfrt01DEFIh+cbM7dOioFiFJTpcNNEfKcl1cmm1ZoUlGkiVrqxG1DW4Q==",
+  "dgSpecHash": "OYQeuYzGOahOorVQ71OfXXYUGVWfvQ/SlWy6iPSDWno5I+Ra4yfk/khxwVmoRAHosa0nucRsqwL1Gc7IB12MwA==",
   "success": true,
-  "projectFilePath": "/Users/Altin/Desktop/GameJam-TheLostKey/TheLostKey/TheLostKey/TheLostKey.csproj",
+  "projectFilePath": "C:\\Users\\kiet-\\source\\repos\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
   "expectedPackageFiles": [
-    "/Users/Altin/.nuget/packages/spectre.console/0.47.0/spectre.console.0.47.0.nupkg.sha512",
-    "/Users/Altin/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+    "C:\\Users\\kiet-\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
+    "C:\\Users\\kiet-\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
 }
