@@ -10,5 +10,6 @@ namespace TheLostKey
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public int Usability { get; set; } = 5; 
     }
 }

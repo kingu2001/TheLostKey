@@ -37,9 +37,6 @@ Welcome to the Lost Key.
                     StartGame();
                     break;
                 case 1:
-                    DisplayAboutInfo();
-                    break;
-                case 2:
                     ExitGame();
                     break;
             }
@@ -52,47 +49,15 @@ Welcome to the Lost Key.
             Environment.Exit(0);
         }
 
-        private void DisplayAboutInfo()
-        {
-            Clear();
-            WriteLine("This game demo was created by Kiet Nguyen");
-            WriteLine("This is just a demo... full game coming to console near you soon!");
-            WriteLine("Press any key to return to the menu");
-            ReadKey(true);
-            RunMainMenu();
-        }
-
         private void StartGame()
         {
-            string prompt = "Hey Pal! Who are you?";
-            string[] options = { "Red", "Green", "Blue", "Yellow" };
-            Menu colorMenu = new Menu(prompt, options);
-            int selectedIndex = colorMenu.Run();
-            BackgroundColor = ConsoleColor.White;
-
-            switch (selectedIndex)
-            {
-                case 0:
-                    ForegroundColor = ConsoleColor.Red;
-                    WriteLine("\nHere is red!");
-                    break;
-                case 1:
-                    ForegroundColor = ConsoleColor.Green;
-                    WriteLine("\n Here is green!");
-                    break;
-                case 2:
-                    ForegroundColor = ConsoleColor.Blue;
-                    WriteLine("\n Here is blue");
-                    break;
-                case 3:
-                    ForegroundColor = ConsoleColor.Yellow;
-                    WriteLine("\n Here is yellow");
-                    break;
-
-            }
-            ResetColor();
-            WriteLine("That is it for now...");
-            ExitGame();
+            Clear();
+            string ans; 
+            WriteLine("Enter your name: ");
+            ans = ReadLine();
+            Clear(); 
+            WriteLine($"Hello, {ans}!");
+            Clear();
         }
     }
 }
