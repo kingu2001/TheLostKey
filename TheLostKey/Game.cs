@@ -39,9 +39,6 @@ Welcome to the Lost Key.
                     StartGame();
                     break;
                 case 1:
-                    DisplayAboutInfo();
-                    break;
-                case 2:
                     ExitGame();
                     break;
             }
