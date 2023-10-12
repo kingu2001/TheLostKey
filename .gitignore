@@ -225,3 +225,9 @@ AppPackages/
 #####
 TheLostKey/obj/Debug/net6.0/TheLostKey.GeneratedMSBuildEditorConfig.editorconfig
 TheLostKey/obj/Debug/net6.0/TheLostKey.assets.cache
+TheLostKey/obj/TheLostKey.csproj.nuget.g.props
+TheLostKey/obj/TheLostKey.csproj.nuget.dgspec.json
+TheLostKey/obj/project.nuget.cache
+TheLostKey/obj/project.assets.json
+TheLostKey/obj/Debug/net6.0/TheLostKey.assets.cache
+TheLostKey/.vs/TheLostKey/v17/.suo
