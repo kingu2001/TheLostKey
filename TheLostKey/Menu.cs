@@ -1,57 +1,70 @@
 ﻿using System;
+using static System.Console; 
 namespace TheLostKey
 {
     public class Menu
     {
-        //Fields
-        public string Title;
-        private MenuItem[] menuItems = new MenuItem[10];
-        private int itemCount = 0;
+        private int SelectedIndex;
+        private string[] Options;
+        private string Prompt;
 
-
-        public Menu(string menuTitle)
+        public Menu(string prompt, string[] options)
         {
-            this.Title = menuTitle;
+            Prompt = prompt;
+            Options = options;
+            SelectedIndex = 0;
         }
 
-        public void Show() //method
+        private void DisplayOptions()
         {
-            Console.Clear();
-            Console.WriteLine(Title);
-
-            for (int i = 0; i < itemCount; i++)
+            WriteLine(Prompt);
+            for (int i = 0; i < Options.Length; i++)
             {
-                Console.WriteLine(menuItems[i].Title);
-            }
-        }
-        public void AddMenuItem(string menuTitle)
-        {
-            MenuItem mi = new MenuItem(menuTitle);
-            //mi.Title = menuTitle;
-            menuItems[itemCount] = mi;
-            itemCount++;
-        }
-        public int SelectMenuItem()
-        {
-            string menuSelect = Console.ReadLine();
-            bool isInt = int.TryParse(menuSelect, out int i);
-
-            if (isInt)
-            {
-                if (i <= itemCount)
+                string currentOption = Options[i];
+                if (i == SelectedIndex)
                 {
-                    return i;
+                    ForegroundColor = ConsoleColor.DarkBlue;
                 }
                 else
                 {
-                    return -1;
+                    ForegroundColor = ConsoleColor.White;
+                    BackgroundColor = ConsoleColor.Black;
                 }
+                WriteLine($"<<{currentOption}>>");
             }
-            else
-            {
-                return -1;
-            }
+            ResetColor();
+        }
 
+        public int Run()
+        {
+            ConsoleKey keyPressed;
+            do
+            {
+                Clear();
+                DisplayOptions();
+                ConsoleKeyInfo keyInfo = ReadKey(true);
+                keyPressed = keyInfo.Key;
+                //Update selected index based on arrow keys. 
+
+                if (keyPressed == ConsoleKey.UpArrow)
+                {
+                    SelectedIndex--;
+                    if (SelectedIndex == -1)
+                    {
+                        SelectedIndex = Options.Length - 1;
+                    }
+                }
+                else if (keyPressed == ConsoleKey.DownArrow)
+                {
+                    SelectedIndex++;
+                    if (SelectedIndex == Options.Length)
+                    {
+                        SelectedIndex = 0;
+                    }
+                }
+
+            } while (keyPressed != ConsoleKey.Enter);
+            return SelectedIndex;
         }
     }
 }

@@ -1,12 +1,12 @@
-﻿namespace TheLostKey
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace TheLostKey
 {
     internal class Program
     {
-        public static bool isSelected = false; // Hvis isSelected er false så vil programmet blive ved med at køre menu'en
-        public static bool isFocused = true; // Dette styrer hele menuen, altså når man trykker enter kommer man i næste menu
-
         static void Main(string[] args)
         {
+<<<<<<< HEAD
            
             int option = 0; // Dette initialisere hvilket punkt vi er på i programmet, altså man stater på mulighed 0
             string decorator = "➡️ \u001b[32m"; // Sætter emoji ved siden af det sted man er i programmet, og farver det grønt
@@ -42,6 +42,11 @@
                     }
                 }
             }
+=======
+            Game game = new Game(); 
+            game.Start();
+            
+>>>>>>> origin/Player
         }
     }
 }

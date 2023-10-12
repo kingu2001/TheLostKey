@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Ap5Jbr6EI7MrW+gnV36q+J7EOkPqrUbr+VUKbSKnFUwY7H9vzqbVSRhP8W3yGToixK0sNgJ68Eqy9XMS0JKnUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rasmu\\OneDrive\\Skrivebord\\GameJam\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
@@ -16,6 +17,14 @@
     "C:\\Users\\rasmu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\rasmu\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\rasmu\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+=======
+  "dgSpecHash": "YZCFWUSTAmAy7Rr23kUBDjzlXK1jg5cPWmz9FrsnAobgedKt+fhm1HrzIzCzYSpGxnd9aWonTVNGP2kgyWo7/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kiet-\\source\\repos\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kiet-\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
+    "C:\\Users\\kiet-\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+>>>>>>> origin/Player
   ],
   "logs": []
 }
