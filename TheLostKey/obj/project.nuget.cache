@@ -1,30 +1,28 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Ap5Jbr6EI7MrW+gnV36q+J7EOkPqrUbr+VUKbSKnFUwY7H9vzqbVSRhP8W3yGToixK0sNgJ68Eqy9XMS0JKnUg==",
+  "dgSpecHash": "NQvRal8JQ7Umru/RHm8kUDZkZx5Fn5guXkxdH4anOtY4ZT2lo885SAB9PdMbYxN7CNeTcTz029/ttBWNeN4Yag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rasmu\\OneDrive\\Skrivebord\\GameJam\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
+  "projectFilePath": "/Users/Altin/Desktop/GameJam/TheLostKey/TheLostKey/TheLostKey.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\rasmu\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
-=======
-  "dgSpecHash": "YZCFWUSTAmAy7Rr23kUBDjzlXK1jg5cPWmz9FrsnAobgedKt+fhm1HrzIzCzYSpGxnd9aWonTVNGP2kgyWo7/A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\kiet-\\source\\repos\\TheLostKey\\TheLostKey\\TheLostKey.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kiet-\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
-    "C:\\Users\\kiet-\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
->>>>>>> origin/Player
+    "/Users/Altin/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio/2.2.1/naudio.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio.asio/2.2.1/naudio.asio.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio.core/2.2.1/naudio.core.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio.midi/2.2.1/naudio.midi.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio.wasapi/2.2.1/naudio.wasapi.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/naudio.winmm/2.2.1/naudio.winmm.2.2.1.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/spectre.console/0.47.0/spectre.console.0.47.0.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/Altin/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/Altin/Desktop/GameJam/TheLostKey/TheLostKey/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

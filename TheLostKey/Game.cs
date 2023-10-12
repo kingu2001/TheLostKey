@@ -115,7 +115,7 @@ Welcome to the Lost Key.
 
         }
 
-        public void WriteText(string text, int speed = 30)
+        public void WriteText(string text, int speed = 2)
         {
             foreach (char c in text)
             {
@@ -128,8 +128,6 @@ Welcome to the Lost Key.
         {
             string text = $"Upon seeing the scary castle you decide to enter…\nUpon entering the scary castle you find yourself standing in an empty hall with three doors…\n";
             string dinnerRoom = $"You find yourself in a dinner room with a table that seems to go on forever. (Maybe my mind is playing a trick on me?)\r\n";
-            string artRoom = $"You enter a room with various animal heads and old paintings hanging on the wall, also stuffed animals on the floor… Suddenly you hear strange noises coming from another room, somewhere in the castle…\r\n";
-            string library = $"Upon entering the abandoned library you discover that it has been ravaged and everything is a mess. Books all over the floor, infinitely  tall bookshelves fallen over, blood on walls and floor. You wonder what happened in the library.\r\n";
             WriteText(text);
             string[] options1 = { "Go north", "Go east", "Go west"};
             Menu castleMenu = new Menu(text, options1);
@@ -137,21 +135,139 @@ Welcome to the Lost Key.
             switch (selectedIndex)
             {
                 case 0:
-                    WriteText(library); 
+                    ALibrary(); 
                     break;
                 case 1:
-                    WriteText(artRoom);
+                    ArtRoom();
                     break; 
                 case 2:
-                    WriteText(dinnerRoom);
+                    DinnerRoom();
                     break; 
             }
         }
 
+        public void ArtRoom()
+        {
+            string text = $"You enter a room with various animal heads and old paintings \nhanging on the wall, also stuffed animals on the floor… \nSuddenly you hear strange noises coming from another room, somewhere in the castle…\n";
+            string goNorth = $"You enter an empty room with no doors\n\n You see nothing in the room except a lighter hanging from the ceiling with a rope around it.\n";
+            string GB = $"You go back and find yourself standing in an empty hall with three doors…";
+            WriteText(text);
+            string[] options2 = { "Go north", "Go back" };
+            Menu artroomMenu = new Menu(text, options2);
+            int selectedIndex = artroomMenu.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    WriteText(goNorth);
+                    EmptyRoom();
+                    break;
+                case 1:
+                    WriteText(GB);
+                    EnterCastle();
+                    break;
+            }
+            
+        }
+        public void EmptyRoom()
+        {
+            string text = $"You see nothing in the room except a lighter hanging from the ceiling with a rope around it.\n";
+            string Investigate = $"Take the ligher and risk the consequences!";
+            string GoB = $"You ignore the lighter and go back";
+            WriteText(text);
+            string[] options3 = { "Investigate", "Go back to art room" };
+            Menu emptyroomMenu = new Menu(text, options3);
+            int selectedIndex = emptyroomMenu.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    WriteText(Investigate);
+                    ReadKey();
+                    ArtRoom();
+                    break;
+                case 1:
+                    WriteText(GoB);
+                    ArtRoom();
+                    break;
+            }
+
+        }
+
+        public void ALibrary()
+        {
+            string text = $"Upon entering the abandoned library you discover that it has been ravaged and everything is a mess. \nBooks all over the floor, infinitely  tall bookshelves fallen over, blood on walls and floor.\n You wonder what happened in the library.\n";
+            string Invest = $"You investigate the library and find nothing.";
+            string GoA = $"You ignore the mess and return to the empty hall";
+            WriteText(text);
+            string[] options4 = { "Investigate", "Go back to empty hall" };
+            Menu alibraryMenu = new Menu(text, options4);
+            int selectedIndex = alibraryMenu.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    WriteText(Invest);
+                    ReadKey();
+                    EnterCastle();
+                    break;
+                case 1:
+                    WriteText(GoA);
+                    EnterCastle();
+                    break;
+
+                   
+            }
+        }
+
+        public void DinnerRoom()
+        {
+            string text = $"You find yourself in a dinner room with a table that seems to go on forever.\n(MC dialog: Maybe my mind is playing a trick on me?)\n";
+            string gN = $"You go north and enter the Kitchen.";
+            string gb = "You decide to go back to the empty hall.";
+            WriteText(text);
+            string[] options5 = { "Go north", "Go back to empty hall" };
+            Menu dMenu = new Menu(text, options5);
+            int selectedIndex = dMenu.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    WriteText(gN);
+                    Kitchen();
+                    break;
+                case 1:
+                    WriteText(gb);
+                    ReadKey();
+                    EnterCastle();
+                    break;
+            }
+        }
+
+        public void Kitchen()
+        {
+            string text = $"After entering what seems like a normal kitchen, you then recognize that there are various different meat hooks hanging from the ceiling.\n";
+            string gbDR = $"You decide go back to dinnerroom";
+            string gtsr = $"You go north and enter Storage Room";
+            WriteText(text);
+            string[] options6 = { "Go north", "Go back to dinnerroom" };
+            Menu kmenu = new Menu(text, options6);
+            int selectedIndex = kmenu.Run();
+            switch (selectedIndex)
+            {
+                case 0:
+                    WriteText(gtsr);
+                    ArtRoom();
+                    break;
+                case 1:
+                    WriteText(gbDR);
+                    DinnerRoom();
+                    break;
+
+            }
+        }
+        
         private void EnterForest()
         {
 
         }
     }
+   
 }
 
