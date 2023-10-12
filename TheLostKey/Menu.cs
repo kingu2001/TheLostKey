@@ -23,8 +23,7 @@ namespace TheLostKey
                 string currentOption = Options[i];
                 if (i == SelectedIndex)
                 {
-                    ForegroundColor = ConsoleColor.Black;
-                    BackgroundColor = ConsoleColor.White;
+                    ForegroundColor = ConsoleColor.DarkBlue;
                 }
                 else
                 {

@@ -13,7 +13,5 @@ namespace TheLostKey
         public List<Item> Inventory { get; set; }
         public int xPosition { get; set; }
         public int yPosition { get; set; }
-
-      
     }
 }

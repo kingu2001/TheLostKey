@@ -9,14 +9,16 @@ namespace TheLostKey
     public class PlayerController
     {
         Player player = new Player(); 
-        public void Collect()
+        public void Collect(Item item)
         {
-
+            player.Inventory.Add(item);
         }
 
-        public void Move(ConsoleKeyInfo key)
+        public void Use(Item item )
         {
-
+            item.Usability = 5; 
+            int use = 1;
+            item.Usability -= use;
         }
     }
 }
