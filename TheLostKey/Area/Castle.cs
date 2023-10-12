@@ -12,7 +12,5 @@ namespace TheLostKey.Area
         {
 
         }
-
-        
     }
 }

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Spectre.Console;
-using Spectre.Console.Rendering;
+﻿using Spectre.Console;
 
 namespace TheLostKey.Area
 {
@@ -25,23 +18,7 @@ namespace TheLostKey.Area
 
         public void BuildArea(int row, int column)
         {
-            var table = new Table();
-            for (int i = 0; i < column; i++)
-            {
-                table.AddColumn(new TableColumn(" "));
-            }
-
-            for (int i = 0; i < row; i++)
-            {
-                table.AddEmptyRow();
-            }
-
-            table.HideHeaders();
-            table.Width = 100;
-
-
-
-            AnsiConsole.Write(table);
+            
         }
     }
 }

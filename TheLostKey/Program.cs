@@ -9,10 +9,9 @@ namespace TheLostKey
 
         static void Main(string[] args)
         {
-
             Castle castle = new("Borg", "Borg hehe");
-            castle.BuildArea(2, 10);
-           
+            castle.BuildArea(3, 3);
+
             int option = 0; // Dette initialisere hvilket punkt vi er på i programmet, altså man stater på mulighed 0
             string decorator = "➡️ \u001b[32m"; // Sætter emoji ved siden af det sted man er i programmet, og farver det grønt
             ConsoleKeyInfo key; // Tager informationer af den tastatur key vi trykker på
@@ -21,7 +20,7 @@ namespace TheLostKey
             {
                 while (!isSelected) // Herunder laver man et while-loop under det første loop.
                 {
-                    
+
 
                     Console.WriteLine("\n __          __  _                            _______      _______ _          _               _   _  __          \n \\ \\        / / | |                          |__   __|    |__   __| |        | |             | | | |/ /          \n  \\ \\  /\\  / /__| | ___ ___  _ __ ___   ___     | | ___      | |  | |__   ___| |     ___  ___| |_| ' / ___ _   _ \n   \\ \\/  \\/ / _ \\ |/ __/ _ \\| '_ ` _ \\ / _ \\    | |/ _ \\     | |  | '_ \\ / _ \\ |    / _ \\/ __| __|  < / _ \\ | | |\n    \\  /\\  /  __/ | (_| (_) | | | | | |  __/    | | (_) |    | |  | | | |  __/ |___| (_) \\__ \\ |_| . \\  __/ |_| |\n     \\/  \\/ \\___|_|\\___\\___/|_| |_| |_|\\___|    |_|\\___/     |_|  |_| |_|\\___|______\\___/|___/\\__|_|\\_\\___|\\__, |\n                                                                                                            __/ |\n                                                                                                           |___/ \n \n __________________________________________________________________________________________________________________\n ");
                     Console.WriteLine("A basic text adventure game where the player makes choices by typing in text commands.\nThe goal is to find a lost key hidden within a small maze-like environment. \n");
