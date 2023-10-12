@@ -25,6 +25,7 @@
                     Console.WriteLine($"{(option == 1 ? decorator : "  ")}Controls \u001b[0m");
                     Console.WriteLine($"{(option == 2 ? decorator : "  ")}Exit \u001b[0m");
 
+
                     key = Console.ReadKey(); // Her der tager programmet og kigger på hvad man trykker på og læser det
 
                     switch (key.Key) // I dette switch punkt der giver man mulighed for at trykke på pil-op, pil-ned og enter på tastaturet for at lave en vis handling.
